@@ -9,3 +9,4 @@ if __name__ == '__main__':
 
     if response.status_code==200:
         print(response.content)
+        print(response.json)
